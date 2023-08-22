@@ -1,8 +1,6 @@
 package ru.job4j;
 
-public class Main {
+import ru.job4j.calculator.Calculator;
 
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
+public class Main {
 }
