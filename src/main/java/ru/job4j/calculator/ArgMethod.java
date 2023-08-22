@@ -13,4 +13,3 @@ public class ArgMethod {
         ArgMethod.hello(name, age);
         ArgMethod.hello(name, age);
       }
-}
