@@ -10,7 +10,6 @@ public class Converter {
         float rsl = value / 1;
         return rsl;
     }
-
     public static void main(String[] args) {
         float euro = Converter.rubleToEuro(70);
         float dollar = Converter.rubleToDollar(60);
