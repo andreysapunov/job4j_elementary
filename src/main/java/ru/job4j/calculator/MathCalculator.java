@@ -21,3 +21,4 @@ public class MathCalculator {
         System.out.println("Результат расчета равен: " + razAndDivision(10, 20));
         System.out.println("Результат расчета равен: " + sumAll(10, 20));
     }
+}
