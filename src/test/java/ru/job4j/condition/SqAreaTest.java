@@ -30,5 +30,5 @@ class SqAreaTest {
         double expected = 0.75;
         double out = SqArea.square(p, k);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
-    }
+        }
     }
