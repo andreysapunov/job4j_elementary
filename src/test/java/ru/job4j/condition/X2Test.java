@@ -39,6 +39,7 @@ class X2Test {
         int rsl = X2.calc(a, b, c, x);
         assertThat(rsl).isEqualTo(expected);
     }
+
     @Test
     void whenA1B1C1X0Then1() {
         int a = 1;
