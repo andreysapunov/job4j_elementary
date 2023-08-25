@@ -6,6 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 class X2Test {
+
     @Test
     void whenA10B0C0X2Then40() {
         int a = 10;
