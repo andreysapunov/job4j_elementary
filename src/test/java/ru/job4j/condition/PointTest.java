@@ -27,7 +27,7 @@ class PointTest {
     }
 
     @Test
-    void when18to26then223() {
+    void when18to26then2dot23() {
         double expected = 2.23;
         int x1 = 1;
         int y1 = 8;
