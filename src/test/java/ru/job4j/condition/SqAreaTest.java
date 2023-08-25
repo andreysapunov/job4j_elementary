@@ -10,7 +10,7 @@ class SqAreaTest {
         double p = 6;
         double k = 1;
         double expected = 2.25;
-        double out = SqArea.square(p, k);
+        double out = SqArea.square (p, k);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
         }
     }
