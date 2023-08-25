@@ -2,10 +2,9 @@ package ru.job4j;
 
 public class Main {
     public static void main(String[] args) {
-        char a = 'A';
-        char b = 'B';
-        System.out.println("A: " + a);
-        System.out.println("B: " + b);
-        System.out.println("A + B: " + (a + b));
+        int first = 6;
+        int second = 5;
+        boolean result = first != second;
+        System.out.println(result);
     }
 }
