@@ -50,4 +50,15 @@ class X2Test {
         int rsl = X2.calc(a, b, c, x);
         assertThat(rsl).isEqualTo(expected);
     }
+
+    @Test
+    void whenA11B1C1X1Then2() {
+        int a = 0;
+        int b = 1;
+        int c = 1;
+        int x = 1;
+        int expected = 2;
+        int rsl = X2.calc(a, b, c, x);
+        assertThat(rsl).isEqualTo(expected);
+    }
 }
