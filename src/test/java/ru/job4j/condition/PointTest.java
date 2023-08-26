@@ -16,7 +16,7 @@ class PointTest {
     }
 
     @Test
-    void when63to12then509() {
+    void when63to12then5dot09() {
         double expected = 5.09;
         int x1 = 6;
         int y1 = 3;
@@ -38,7 +38,7 @@ class PointTest {
     }
 
     @Test
-    void when23to72then509() {
+    void when23to72then5dot09() {
         double expected = 5.09;
         int x1 = 2;
         int y1 = 3;
