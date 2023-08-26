@@ -8,11 +8,11 @@ public class Liken {
         System.out.println(result);
         first = 7;
         second = 9;
-        result= first < second;
+        result = first < second;
         System.out.println(result);
         first = 3;
         second = 3;
-        result= first == second;
+        result = first == second;
         System.out.println(result);
     }
 }
