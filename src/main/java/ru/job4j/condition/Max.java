@@ -6,6 +6,7 @@ public class Max {
         int result = left >= right ? left : right;
         return result;
     }
+
     public static void main(String[] args) {
         int result1 = Max.max(20, 6);
         int result2 = Max.max(5, 12);
