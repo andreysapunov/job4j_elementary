@@ -16,7 +16,7 @@ class SwitchWeekTest {
 
     @Test
     void nameOfDay6itSaturday() {
-        int day = 6;
+        int day = 3;
         String excepted = "Суббота";
         String out = SwitchWeek.nameOfDay(day);
         assertThat(out).isEqualTo(excepted);
