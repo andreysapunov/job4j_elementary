@@ -8,9 +8,9 @@ class MultipleSwitchWeekTest {
 
     @Test
     void number3OfDayWednesday() {
-        String name = "Среда";
-        String excepted = "3";
-        String out = MultipleSwitchWeek.numberOfDay(name);
+        String name = "Wednesday";
+        int excepted = 3;
+        int out = MultipleSwitchWeek.numberOfDay(name);
         assertThat(out).isEqualTo(excepted);
     }
 }
