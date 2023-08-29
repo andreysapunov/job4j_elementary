@@ -1,13 +1,11 @@
 package ru.job4j;
 
 public class Main {
-    public static int main(String[] args) {
-        int a = 6;
-        int b = 5;
-        int c = 7;
-        if (a >= c) {
-            return a;
+
+    public static void main(String[] args) {
+        for (int index = 0; index < 10; index++) {
+            System.out.println("infinity");
+            index = index + 1;
         }
-        return b;
     }
 }
