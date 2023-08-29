@@ -23,4 +23,13 @@ class CounterTest {
         int expected = 12;
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    void testFirstMetod() {
+        int start = 1;
+        int finish = 1;
+        int result = Counter.sum(start, finish);
+        int expected = 1;
+        assertThat(result).isEqualTo(expected);
+    }
 }
