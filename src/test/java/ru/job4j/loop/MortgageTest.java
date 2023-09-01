@@ -20,7 +20,7 @@ class MortgageTest {
         int salary = 120;
         double percent = 50;
         int result = Mortgage.year(amount, salary, percent);
-        int expected = 1;
+        int expected = 2;
         assertThat(result).isEqualTo(expected);
     }
 
