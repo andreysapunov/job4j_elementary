@@ -8,17 +8,17 @@ public class MathCalculator {
         return sum(first, second) + multiply(first, second);
     }
 
-    public static double razAndDivision(double first, double second) {
-        return raz(first, second) + division(first, second);
+    public static double difAndDivision(double first, double second) {
+        return dif(first, second) + division(first, second);
     }
 
     public static double sumAll(double first, double second) {
-        return sum(first, second) + multiply(first, second) + raz(first, second) + division(first, second);
+        return sum(first, second) + multiply(first, second) + dif(first, second) + division(first, second);
     }
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен: " + razAndDivision(10, 20));
+        System.out.println("Результат расчета равен: " + difAndDivision(10, 20));
         System.out.println("Результат расчета равен: " + sumAll(10, 20));
     }
 }

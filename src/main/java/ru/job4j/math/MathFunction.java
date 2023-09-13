@@ -10,7 +10,7 @@ public class MathFunction {
         return first * second;
     }
 
-    public static double raz(double first, double second) {
+    public static double dif(double first, double second) {
         return second - first;
     }
 
